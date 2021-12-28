@@ -1,0 +1,291 @@
+@charset "UTF-8";
+
+html {
+  background-color:#566573;
+}
+body {
+  margin:0;
+  background-color:#fee6d2;
+}
+h1 {
+  text-align:center;
+  color:black;
+  font-size:32px;
+  background-color: gray;
+  font-family: 'Chakra Petch', sans-serif;
+}
+h2{
+font-family: 'Chakra Petch', sans-serif;
+font-size: 50px;
+}
+header {
+  background-color:#AEB6BF;
+}
+
+header div {
+  width:500px;
+  display:inline-block;
+	font-weight:bold;
+	padding-left:25px;
+	font-size:24px;
+}
+
+header nav {
+  width:500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  text-align: center;
+
+}
+nav li {
+  display:inline-block;
+
+}
+nav a {
+  text-decoration:none;
+  color:black;
+  font-size:30px;
+  font-weight:700;
+  display:block;
+  padding:15px 25px;
+  font-family: 'Chakra Petch', sans-serif;
+}
+nav a:hover{
+  background-color: black;
+  color: white;
+}
+footer {
+  background-color:black;
+  color:white;
+  text-align:center;
+  padding:5px;
+}
+p{
+  font-family: 'Cabin', sans-serif;
+}
+#intro{
+  font-size: 20px;
+  padding-left: 30px;
+}
+#reach{
+  font-size: 20px;
+  color: blue;
+}
+section {
+  max-width:960px;
+  margin:0 auto;
+}
+section div {
+  width:30%;
+  min-height:300px;
+  border:1px solid gray;
+  display:inline-block;
+}
+main div{
+  width: 30%;
+  display: inline-block;
+  vertical-align:middle;
+  text-align: center;
+}
+
+div a {
+  width:20%;
+  padding:10px 20px;
+  background-color:black;
+  color:white;
+  text-decoration:none;
+  text-align:center;
+  display:block;
+  margin:110px auto 0;
+}
+.profile{
+width: 427px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-left: 400px;
+  box-shadow: 2px 2px 2px black;
+}
+.photo1 {
+  background-image:url(../images/Snorkel-icon.jpg);
+  background-size:cover;
+  background-position:center;
+  box-shadow: 2px 2px 2px black;
+}
+.photo2 {
+  background-image:url(../images/Fish-icon.jpg);
+  background-size:cover;
+  background-position:center;
+  box-shadow: 2px 2px 2px black;
+}
+.photo3 {
+  background-image:url(../images/Seashell-icon.jpg);
+  background-size:cover;
+  background-position:center;
+  box-shadow: 2px 2px 2px black;
+}
+.photo4 {
+  background-image:url(../images/Typography-1.jpg);
+  background-size:cover;
+  background-position:center;
+  box-shadow: 2px 2px 2px black;
+}
+.photo5 {
+  background-image:url(../images/Typography-2.jpg);
+  background-size:cover;
+  background-position:center;
+  box-shadow: 2px 2px 2px black;
+}
+.photo6 {
+  background-image:url(../images/Typography-3.jpg);
+  background-size:cover;
+  background-position:center;
+  box-shadow: 2px 2px 2px black;
+}
+.photo7 {
+  background-image:url(../images/stamps.jpg);
+  background-size:cover;
+  background-position:center;
+  box-shadow: 2px 2px 2px black;
+}
+#photo1 {
+  display:none;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  min-width: 100%;
+  min-height: 100%;
+  text-align: center;
+  padding:40px;
+  background-color:rgba(0,0,0,.6);
+}
+#photo1:target {
+  display:block;
+}
+#photo2 {
+  display:none;
+  position:absolute;
+  top:0;
+  bottom:0;
+  min-width: 100%;
+  min-height: 100%;
+  left:0;
+  right:0;
+  text-align: center;
+  padding:40px;
+  background-color:rgba(0,0,0,.6);
+}
+#photo2:target {
+  display:block;
+}
+#photo3 {
+  display:none;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  min-width: 100%;
+  min-height: 100%;
+  right:0;
+  text-align: center;
+  padding:40px;
+  background-color:rgba(0,0,0,.6);
+}
+#photo3:target {
+  display:block;
+}
+#photo4 {
+  display:none;
+  position:absolute;
+  top:0;
+  bottom:0;
+  min-width: 100%;
+  min-height: 100%;
+  left:0;
+  right:0;
+  text-align: center;
+  padding:40px;
+  background-color:rgba(0,0,0,.6);
+}
+#photo4:target {
+  display:block;
+}
+#photo5 {
+  display:none;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  min-width: 100%;
+  min-height: 100%;
+  right:0;
+  text-align: center;
+  padding:40px;
+  background-color:rgba(0,0,0,.6);
+}
+#photo5:target {
+  display:block;
+}
+#photo6 {
+  display:none;
+  position:absolute;
+  top:0;
+  bottom:0;
+  min-width: 100%;
+  min-height: 100%;
+  left:0;
+  right:0;
+  text-align: center;
+  padding:40px;
+  background-color:rgba(0,0,0,.6);
+}
+#photo6:target {
+  display:block;
+}
+#photo7 {
+  display:none;
+  position:absolute;
+  top:0;
+  bottom:0;
+  min-width: 100%;
+  min-height: 100%;
+  left:0;
+  right:0;
+  text-align: center;
+  padding:40px;
+  background-color:rgba(0,0,0,.6);
+}
+#photo7:target {
+  display:block;
+}
+form {width:50%;
+  border:1px solid dimgrey;
+  border-radius:15px;
+  margin:0 auto;
+  background-color:#ccc;
+  text-align: center;
+  font-family: 'Cabin', sans-serif;
+  padding: 50px;
+}
+input{
+	padding: 10px;
+	font-size: 20px;
+	width: 80%;
+}
+textarea{
+	padding: 10px;
+	font-size: 20px;
+}
+#submit-btn{
+	background-color: #5ef73e;
+	color: white;
+	font-weight: bold;
+	border: none;
+}

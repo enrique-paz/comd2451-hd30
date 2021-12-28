@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+html {
+    background-color: black;
+}
+
+main {
+    background-image:url(Image1.jpeg);
+    background-size:cover;
+    height:504px;
+    padding-top:164px;
+}
+
+nav li {
+    display:inline-block; 
+    font-size:20px;
+    color:white;
+    font-family:sans-serif;
+    padding-left:100px;  
+}
+
+h1 {
+    font-size:136px;
+    color:white;
+    font-family:'Lato', sans-serif;
+    text-align:center;
+}
+
+h2 {
+    font-size:35px;
+    margin-top:0px;
+    font-family:'Lato', sans-serif;
+}
+
+section {
+    font-size:13px;
+    color:white;
+    font-family:'Lato', sans-serif;
+    text-align:center;
+    width:536px;
+    margin-left:auto;
+    margin-right:auto;
+    line-height:24px;
+}
+
+#menu {
+    width:860px;
+    margin-left:auto;
+    margin-right:auto;
+    font-family:'Lato', sans-serif;
+}
+
+.appetizers {
+    background-image:url(Image2.jpeg);
+    background-size:cover;
+    height:100px;
+    padding-top:100px;
+}
+
+.entrees {
+    background-image:url(Image3.jpeg);
+    background-size:cover;
+    height:100px;
+    padding-top:100px;
+}
+
+.cocktails {
+    background-image:url(Image4.jpeg);
+    background-size:cover;
+    height:100px;
+    padding-top:100px;
+}
+
+.footer {
+    
+    background-image:url(logo-negril-white.png);
+    background-size:cover;
+    width:960px;
+    margin-bottom:auto;
+}

@@ -1,0 +1,279 @@
+@charset "UTF-8";
+
+html {
+  background-color:#857E97;
+}
+body {
+  font-family: 'Dancing Script';
+  margin:0;
+  background-color:#000000;
+}
+h1 {
+  text-align:center;
+  color:#EDC548;
+  font-size:42px;
+}
+header {
+  background-color:#FFFFFF;
+}
+
+header div {
+  width:500px;
+  display:inline-block;
+	font-weight:bold;
+	padding-left:800px;
+	font-size:24px;
+}
+
+header nav {
+  width:500px;
+  display:inline-block;
+}
+
+nav ul {
+  list-style-type:none;
+  margin-left:200;
+  padding-left:200px;
+}
+
+nav li {
+  display:inline-block;
+}
+
+ul li:hover {
+  background-color: #B9770E;
+  text-decoration-color: #000000;
+  transition-delay: 0.2s;
+  transition-duration: 1s;
+}
+
+nav a {
+  text-decoration:none;
+  color:#B9770E;
+  font-size:20px;
+  font-weight:700;
+  display:block;
+  padding:15px 20px;
+}
+
+footer {
+  background-color:#857E97;
+  color:white;
+  text-align:center;
+  padding:20px;
+}
+section {
+  max-width:960px;
+  margin:0 auto;
+  padding-bottom: 30px;
+}
+section div {
+  width:30%;
+  min-height:300px;
+  border:none;
+  display:inline-block;
+  margin: 10px;
+}
+div a {
+  width:20%;
+  padding:10px 20px;
+  background-color:#432B7F;
+  color:white;
+  text-decoration:none;
+  text-align:center;
+  display:block;
+  margin:110px auto 0;
+}
+div video {
+  text-align:center;
+  display:block;
+}
+p {
+  color: white;
+  padding-top: 100px;
+}
+section li {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 100px;
+}
+.photo1 {
+  background-image:url(images/DDavid.png);
+  background-size:cover;
+  background-position:center;
+}
+.photo2 {
+  background-image:url(images/Wrath.png);
+  background-size:cover;
+  background-position:center;
+}
+.photo3 {
+  background-image:url(images/Yoyo.png);
+  background-size:cover;
+  background-position:center;
+}
+.photo4 {
+  background-image:url(images/Puppy.png);
+  background-size:cover;
+  background-position:center;
+}
+.photo5 {
+  background-image:url(images/OC.png);
+  background-size:cover;
+  background-position:center;
+}
+.photo6 {
+  background-image:url(images/Leo.png);
+  background-size:cover;
+  background-position:center;
+}
+.photo7 {
+  background-image:url(images/sans.jpg);
+  background-size:cover;
+  background-position:center;
+}
+.photo8 {
+  background-image:url(images/Batter.png);
+  background-size:cover;
+  background-position:center;
+}
+
+#photo1 {
+  display:none;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  text-align: center;
+  padding:40px;
+  background-color:rgba(0,0,0,.6);
+}
+#photo1:target {
+  display:block;
+}
+
+#photo2 {
+  display:none;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  text-align: center;
+  padding:40px;
+  background-color:rgba(0,0,0,.6);
+}
+#photo2:target {
+  display:block;
+}
+
+#photo3 {
+  display:none;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  text-align: center;
+  padding:40px;
+  background-color:rgba(0,0,0,.6);
+}
+#photo3:target {
+  display:block;
+}
+
+#photo4 {
+  display:none;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  text-align: center;
+  padding:40px;
+  background-color:rgba(0,0,0,.6);
+}
+#photo4:target {
+  display:block;
+}
+
+#photo5 {
+  display:none;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  text-align: center;
+  padding:40px;
+  background-color:rgba(0,0,0,.6);
+}
+#photo5:target {
+  display:block;
+}
+
+#photo6 {
+  display:none;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  text-align: center;
+  padding:40px;
+  background-color:rgba(0,0,0,.6);
+}
+#photo6:target {
+  display:block;
+}
+
+#photo7 {
+  display:none;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  text-align: center;
+  padding:40px;
+  background-color:rgba(0,0,0,.6);
+}
+#photo7:target {
+  display:block;
+}
+
+#photo8 {
+  display:none;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  text-align: center;
+  padding:40px;
+  background-color:rgba(0,0,0,.6);
+}
+
+#photo8:target {
+  display:block;
+}
+
+#about {
+  display: inline-block;
+  margin-left:300px;
+  margin-right:50px;
+  margin-top:100px;
+}
+
+form {
+  text-align: center;
+}
+
+form li {
+  text-decoration: none;
+  margin-bottom: 10px;
+}
